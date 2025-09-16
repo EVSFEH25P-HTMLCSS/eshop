@@ -1,0 +1,66 @@
+header {
+  padding: 2rem;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 0.15rem;
+  align-items: center;
+}
+
+nav > div:last-child {
+  display: flex;
+  margin-left: auto;
+  gap: 2rem;
+  align-items: center;
+}
+
+nav div:last-child > div {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+nav a {
+  color: hsl(0, 0%, 50%);
+  font-size: 0.85rem;
+  text-decoration: none;
+  padding: 0.65rem 1rem;
+}
+
+nav a:hover {
+  background-color: hsl(0, 0%, 95%);
+}
+
+nav a.active {
+  color: var(--primary-color);
+}
+
+#cart-btn {
+  background-color: transparent;
+}
+
+#cart-btn:hover {
+  background-color: var(--secondary-color-hover);
+}
+
+#search-input {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 0.25rem 0.5rem;
+  border: 1px solid var(--border-color);
+  color: hsl(0, 0%, 40%);
+}
+
+#search-input input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
