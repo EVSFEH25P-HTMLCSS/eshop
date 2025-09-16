@@ -1,0 +1,44 @@
+#hero-section {
+  align-self: center;
+}
+
+#hero-section > div {
+  background-color: var(--secondary-color);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 80rem;
+  padding: 0;
+}
+
+#hero-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 4rem 0 2rem;
+  gap: 1rem;
+}
+
+h1 {
+  padding: 0;
+  margin: 0;
+  font-weight: 400;
+  font-size: 2.5rem;
+}
+
+h1 strong {
+  font-weight: 700;
+}
+
+#hero-section p {
+  padding: 0;
+  margin: 0;
+  color: hsl(0, 0%, 20%);
+}
+
+#hero-left button {
+  display: block;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}

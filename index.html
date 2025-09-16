@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Eshop</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="css/root.css" />
     <link rel="stylesheet" href="css/layout.css" />
     <link rel="stylesheet" href="css/nav.css" />
@@ -14,6 +21,7 @@
   </head>
   <body>
     <div id="app">
+      <div id="header-placeholder"></div>
       <header>
         <nav>
           <div>
@@ -76,11 +84,203 @@
         </nav>
       </header>
 
-      <section id="hero-section">HERO</section>
+      <section id="hero-section">
+        <div>
+          <div id="hero-left">
+            <h1>
+              <strong>See</strong> everything<br />
+              with <strong>Clarity</strong>
+            </h1>
+            <p>
+              Buying eyewear should leave you happy and good-looking, with money
+              in your pocket. Glasses, sunglasses, and contacts—we’ve got your
+              eyes covered.
+            </p>
+            <button class="btn btn-primary">
+              Shop Now<svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="18px"
+                viewBox="0 -960 960 960"
+                width="18px"
+                fill="currentColor"
+              >
+                <path
+                  d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z"
+                />
+              </svg>
+            </button>
+          </div>
+          <div>
+            <img
+              width="100%"
+              src="https://salinaka-ecommerce.web.app/images/banner-girl.789f1fa6f451ad26c5039fcbc049ace7.png"
+            />
+          </div>
+        </div>
+      </section>
 
       <main>
-        <section id="featured-section" class="product-grid">GRID</section>
-        <section id="recommended-section" class="product-grid">GRID</section>
+        <section id="featured-section" class="product-grid">
+          <div class="grid-header">
+            <h2>Featured Products</h2>
+            <a href="/featured.html">See All</a>
+          </div>
+          <div class="grid-body">
+            <article class="product-item">
+              <div class="product-header">
+                <img
+                  width="100%"
+                  src="https://firebasestorage.googleapis.com/v0/b/salinaka-ecommerce.appspot.com/o/products%2F7l3FMZqY8JdfssalDgx2?alt=media&token=be15689c-e12c-4829-9d78-32395ef1e3f7"
+                />
+              </div>
+              <div class="product-body">
+                <h3>Burnikk</h3>
+                <span>Sexbomb</span>
+              </div>
+            </article>
+            <article class="product-item">
+              <div class="product-header">
+                <img
+                  width="100%"
+                  src="https://firebasestorage.googleapis.com/v0/b/salinaka-ecommerce.appspot.com/o/products%2F7l3FMZqY8JdfssalDgx2?alt=media&token=be15689c-e12c-4829-9d78-32395ef1e3f7"
+                />
+              </div>
+              <div class="product-body">
+                <h3>Burnikk</h3>
+                <span>Sexbomb</span>
+              </div>
+            </article>
+            <article class="product-item">
+              <div class="product-header">
+                <img
+                  width="100%"
+                  src="https://firebasestorage.googleapis.com/v0/b/salinaka-ecommerce.appspot.com/o/products%2F7l3FMZqY8JdfssalDgx2?alt=media&token=be15689c-e12c-4829-9d78-32395ef1e3f7"
+                />
+              </div>
+              <div class="product-body">
+                <h3>Burnikk</h3>
+                <span>Sexbomb</span>
+              </div>
+            </article>
+            <article class="product-item">
+              <div class="product-header">
+                <img
+                  width="100%"
+                  src="https://firebasestorage.googleapis.com/v0/b/salinaka-ecommerce.appspot.com/o/products%2F7l3FMZqY8JdfssalDgx2?alt=media&token=be15689c-e12c-4829-9d78-32395ef1e3f7"
+                />
+              </div>
+              <div class="product-body">
+                <h3>Burnikk</h3>
+                <span>Sexbomb</span>
+              </div>
+            </article>
+            <article class="product-item">
+              <div class="product-header">
+                <img
+                  width="100%"
+                  src="https://firebasestorage.googleapis.com/v0/b/salinaka-ecommerce.appspot.com/o/products%2F7l3FMZqY8JdfssalDgx2?alt=media&token=be15689c-e12c-4829-9d78-32395ef1e3f7"
+                />
+              </div>
+              <div class="product-body">
+                <h3>Burnikk</h3>
+                <span>Sexbomb</span>
+              </div>
+            </article>
+            <article class="product-item">
+              <div class="product-header">
+                <img
+                  width="100%"
+                  src="https://firebasestorage.googleapis.com/v0/b/salinaka-ecommerce.appspot.com/o/products%2F7l3FMZqY8JdfssalDgx2?alt=media&token=be15689c-e12c-4829-9d78-32395ef1e3f7"
+                />
+              </div>
+              <div class="product-body">
+                <h3>Burnikk</h3>
+                <span>Sexbomb</span>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section id="recommended-section" class="product-grid">
+          <div class="grid-header">
+            <h2>Recommended Products</h2>
+            <a href="/featured.html">See All</a>
+          </div>
+          <div class="grid-body">
+            <article class="product-item">
+              <div class="product-header">
+                <img
+                  width="100%"
+                  src="https://firebasestorage.googleapis.com/v0/b/salinaka-ecommerce.appspot.com/o/products%2F7l3FMZqY8JdfssalDgx2?alt=media&token=be15689c-e12c-4829-9d78-32395ef1e3f7"
+                />
+              </div>
+              <div class="product-body">
+                <h3>Burnikk</h3>
+                <span>Sexbomb</span>
+              </div>
+            </article>
+            <article class="product-item">
+              <div class="product-header">
+                <img
+                  width="100%"
+                  src="https://firebasestorage.googleapis.com/v0/b/salinaka-ecommerce.appspot.com/o/products%2F7l3FMZqY8JdfssalDgx2?alt=media&token=be15689c-e12c-4829-9d78-32395ef1e3f7"
+                />
+              </div>
+              <div class="product-body">
+                <h3>Burnikk</h3>
+                <span>Sexbomb</span>
+              </div>
+            </article>
+            <article class="product-item">
+              <div class="product-header">
+                <img
+                  width="100%"
+                  src="https://firebasestorage.googleapis.com/v0/b/salinaka-ecommerce.appspot.com/o/products%2F7l3FMZqY8JdfssalDgx2?alt=media&token=be15689c-e12c-4829-9d78-32395ef1e3f7"
+                />
+              </div>
+              <div class="product-body">
+                <h3>Burnikk</h3>
+                <span>Sexbomb</span>
+              </div>
+            </article>
+            <article class="product-item">
+              <div class="product-header">
+                <img
+                  width="100%"
+                  src="https://firebasestorage.googleapis.com/v0/b/salinaka-ecommerce.appspot.com/o/products%2F7l3FMZqY8JdfssalDgx2?alt=media&token=be15689c-e12c-4829-9d78-32395ef1e3f7"
+                />
+              </div>
+              <div class="product-body">
+                <h3>Burnikk</h3>
+                <span>Sexbomb</span>
+              </div>
+            </article>
+            <article class="product-item">
+              <div class="product-header">
+                <img
+                  width="100%"
+                  src="https://firebasestorage.googleapis.com/v0/b/salinaka-ecommerce.appspot.com/o/products%2F7l3FMZqY8JdfssalDgx2?alt=media&token=be15689c-e12c-4829-9d78-32395ef1e3f7"
+                />
+              </div>
+              <div class="product-body">
+                <h3>Burnikk</h3>
+                <span>Sexbomb</span>
+              </div>
+            </article>
+            <article class="product-item">
+              <div class="product-header">
+                <img
+                  width="100%"
+                  src="https://firebasestorage.googleapis.com/v0/b/salinaka-ecommerce.appspot.com/o/products%2F7l3FMZqY8JdfssalDgx2?alt=media&token=be15689c-e12c-4829-9d78-32395ef1e3f7"
+                />
+              </div>
+              <div class="product-body">
+                <h3>Burnikk</h3>
+                <span>Sexbomb</span>
+              </div>
+            </article>
+          </div>
+        </section>
       </main>
 
       <footer>FOOTER</footer>
