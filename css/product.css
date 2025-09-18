@@ -1,0 +1,13 @@
+main {
+  display: flex;
+  flex-direction: column;
+  width: 80rem;
+  align-self: center;
+}
+
+#product-details {
+  border: 1px solid var(--border-color);
+
+  width: 100%;
+  height: 10rem;
+}
